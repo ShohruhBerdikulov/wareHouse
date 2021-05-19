@@ -23,15 +23,15 @@ public class Users {
 
     @NotNull(message = "bo'sh bo'lmasin")
     @NotEmpty(message = "Empty bo'lmasin")
-    private String first_name;
+    private String firstName;
 
     @NotNull(message = "bo'sh bo'lmasin")
     @NotEmpty(message = "Empty bo'lmasin")
-    private String last_name;
+    private String lastName;
 
     @NotNull(message = "bo'sh bo'lmasin")
     @NotEmpty(message = "Empty bo'lmasin")
-    private String phone_number;
+    private String phoneNumber;
 
     @NotNull(message = "bo'sh bo'lmasin")
     @NotEmpty(message = "Empty bo'lmasin")

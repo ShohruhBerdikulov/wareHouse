@@ -7,4 +7,10 @@ import org.springframework.data.rest.core.config.Projection;
 @Projection(types = Suplier.class)
 public interface SuplierCustom {
     Integer getId();
+
+    String getName();
+
+    String getPhoneNumber();
+
+    boolean getActive();
 }
