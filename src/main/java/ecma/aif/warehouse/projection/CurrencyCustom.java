@@ -7,4 +7,8 @@ import org.springframework.data.rest.core.config.Projection;
 @Projection(types = Currensy.class)
 public interface CurrencyCustom {
     Integer getId();
+
+    String getName();
+
+    boolean getActive();
 }
