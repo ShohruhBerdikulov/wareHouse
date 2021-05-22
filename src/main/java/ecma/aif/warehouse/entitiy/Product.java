@@ -33,11 +33,6 @@ public class Product {
     @OneToOne
     @NotNull(message = "bo'sh bo'lmasin")
     @NotEmpty(message = "Empty bo'lmasin")
-    private Attachment attachment;
-
-    @OneToOne
-    @NotNull(message = "bo'sh bo'lmasin")
-    @NotEmpty(message = "Empty bo'lmasin")
     private Measurement measurement;
 
 }
